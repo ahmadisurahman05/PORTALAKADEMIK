@@ -1,0 +1,134 @@
+body{
+  font-family: Tahoma;
+  text-align: center;
+  background-color : #99ccff;  
+}         
+#header {
+	position: relative;
+	background-image: url(../adminweb/images/img02.jpg);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 992px;
+	border: 2px solid #2C0202;
+	padding-top: 93px;
+	text-align: left;
+}
+
+#content {
+	margin-left: 230px;
+	padding: 20px 10px 0 0;
+}
+#content p {
+	font-size: 75%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+  position: relative;
+  float: left;
+	top: 37px;
+	left: 0;
+	width: 200px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 200px;
+	border-bottom: 1px solid #270000;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #1B0000;
+	border-right: 1px solid #1B0000;
+	background-color: #99cccc;
+	color: #000000;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color: #99cccc;
+	color: #000000;
+}
+
+.judultable a:link , .judultable a:visited{
+	color: #000000;
+}
+
+.judultable a:hover {
+	color: #000000;
+	text-decoration:none;
+}
+
+a:link,a:visited {
+  color:#265180;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {   
+	font: normal 120% Georgia;
+	line-height: 200%;
+	color: #2C0202;
+	background-color: transparent;
+	border-bottom: 1px dotted #2C0202;
+}
+table {
+	font-family: Tahoma; 
+	font-size: 8pt;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	/*border-collapse: collapse;*/
+	margin: 10px 0px;
+}
+th{
+	color: #000000;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	border-collapse: collapse;
+	background-color: #99cccc;
+}
+
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	background-color: #99cccc;
+	border-collapse: collapse;
+	
+}
+
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+#footer{
+	clear :both;
+	padding: 20px 0 10px 255px;
+	font-size: 70%;
+	color: #FFFFFF;
+	background-color: #000000;
+	text-align: center;
+}
+         
